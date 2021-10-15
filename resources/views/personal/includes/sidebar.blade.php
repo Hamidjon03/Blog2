@@ -13,6 +13,15 @@
             </li>
 
             <li class="nav-item">
+                <a href="{{ route('admin.main.index') }}" class="nav-link">
+                    <i class="nav-icon  fas fa-user-cog"></i>
+                    <p>
+                        Admin Panel
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a href="{{ route('personal.liked.index') }}" class="nav-link">
                     <i class="nav-icon far fa-heart"></i>
                     <p>

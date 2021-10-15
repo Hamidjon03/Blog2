@@ -42,7 +42,7 @@
                                     <tr>
                                         <th>ID</th>
                                         <th>Title</th>
-                                        <th colspan="2" class="text-center">Action</th>
+                                        <th colspan="3" class="text-center">Action</th>
                                     </tr>
                                 <tbody>
                                 @foreach($posts as $post)
